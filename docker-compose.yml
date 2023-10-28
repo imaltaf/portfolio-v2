@@ -1,0 +1,8 @@
+version: "3"
+services:
+  my_portfilo:
+    image: darkmechanic/my_portfilo:latest
+    container_name: my_portfilo
+    ports:
+      - "30004:80"
+    restart: unless-stopped
